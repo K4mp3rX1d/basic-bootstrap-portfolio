@@ -1,0 +1,32 @@
+/* Variables / Custom Properties */
+:root {
+    --bg-color-1: #163248;
+    --bg-color-2: #163248ee;
+    --brand-color: #99beda;
+}
+
+
+
+
+/* Utility Classes */
+.color-inherit {
+    color: inherit;
+}
+
+
+
+
+/* Header */
+header {
+    background-color: ;
+    color: #99beda;
+}
+
+.navbar {
+    background-color: var(--bg-color-1, #163248);
+}
+
+header .navbar .navbar-brand {
+    color: var(--brand-color);
+}
+
