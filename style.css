@@ -16,9 +16,9 @@
 
 
 
-/* Header */
+/* Header Section*/
 header {
-    background-color: ;
+    background-color: var(--bg-color-2, );
     color: #99beda;
 }
 
@@ -30,3 +30,10 @@ header .navbar .navbar-brand {
     color: var(--brand-color);
 }
 
+
+
+/* Cover */
+.cover {
+    font-size: 2em;
+    font-weight: lighter;
+}
