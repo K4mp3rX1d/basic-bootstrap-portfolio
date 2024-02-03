@@ -15,6 +15,21 @@
 
 
 
+/* Common Styles */
+section {
+    background-color: rgba(153, 190, 218, 0.753);
+}
+
+.bg-overlay-dark {    
+    background-color: rgb(0 0 0 / 90%);
+}
+
+.bg-overlay-light {    
+    background-color: rgb(0 0 0 / 10%);
+}
+
+
+
 
 /* Header Section*/
 header {
@@ -36,4 +51,15 @@ header .navbar .navbar-brand {
 .cover {
     font-size: 2em;
     font-weight: lighter;
+}
+
+
+/* About */
+.about .progress-bar {
+    background-color: #163248dd;
+}
+
+.about .progress-bar .skill-name {
+    background-color: #163248;
+    opacity: 90%;
 }
