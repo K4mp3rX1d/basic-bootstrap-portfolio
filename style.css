@@ -75,3 +75,17 @@ header .navbar .navbar-brand {
 .about .align-item-stretch {
     flex: 1;
 }
+
+
+footer {
+    background-color: var(--bg-color-1, #163248);
+    color: var(--brand-color, #99beda);
+}
+
+footer .nav-link, footer .nav-link:visited {
+    color: var(--brand-color, #99beda);
+}
+
+footer .nav-link:hover, footer .nav-link:active {
+    color: whitesmoke;
+}
