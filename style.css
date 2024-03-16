@@ -1,0 +1,18 @@
+/* Generic Style */
+.section-heading {
+    display: inline-block;
+    border-bottom: 3px solid rgba(0,0,0,.7);
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: dimgray;
+    color: white;
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+    border: 3px solid rgba(0,0,0,.7);
+}
