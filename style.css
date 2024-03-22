@@ -4,6 +4,14 @@
     border-bottom: 3px solid rgba(0,0,0,.7);
 }
 
+.sub-section-heading {
+    display: inline-block;
+    border-bottom: 2px solid;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+}
+
 .img-container {
     display: flex;
     justify-content: center;
@@ -15,4 +23,16 @@
     height: 160px;
     width: 160px;
     border: 3px solid rgba(0,0,0,.7);
+}
+
+
+
+/* Style for Skills Section */
+.skill {
+    width: 100%;
+    
+}
+
+.progress {
+    margin: 25px;
 }
